@@ -16,3 +16,7 @@ stop:
 	docker compose stop
 down:
 	docker compose down --remove-orphans
+dev:
+	docker compose exec app npm run dev
+app:
+	docker compose exec app sh
